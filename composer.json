@@ -1,0 +1,22 @@
+{
+    "name": "buddiesofsymfony/api-bundle",
+    "authors": [
+	{
+	    "name": "Nicolás Bullorini",
+	    "email": "nbullorini@microblet.com"
+	}
+    ],
+    "autoload": {
+        "psr-4" : {
+            "BOS\\ApiBundle\\" : "BOS/ApiBundle/"
+        }
+    },
+    "require": {
+        "php": ">=5.5.0"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master" : "1.0"
+        }
+    }
+}
