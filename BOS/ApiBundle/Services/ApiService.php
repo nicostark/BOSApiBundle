@@ -39,6 +39,9 @@ class ApiService
 		if(sizeof($class_full)!=2){
 			return;
 		}
+		if($class_full[1]!="indexAction"){
+			return;
+		}
 		$class = trim($class_full[0]);
 		$reflectionClass = new \ReflectionClass($class);		
 		$reader = new AnnotationReader();
